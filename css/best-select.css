@@ -1,0 +1,103 @@
+.best-select {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    
+    .best-select-wrapper {
+      width: 99%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #e0e0e2;
+      border-radius: 17px;
+      
+      .best-select-title {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        img {
+          margin-left: 7px;
+        }
+        p {
+          font-family: Yekan;
+          font-size: 22px;
+        }
+      }
+      .best-select-items{
+       
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+       
+        
+        .best-select-item {
+           
+          height: 33%;
+          width: 16%;
+          display: flex;
+          flex-flow: row wrap;
+          .best-select-image {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            img {
+              width: 100%;
+              height:100%;
+            }
+          }
+          .best-select-price {
+            width: 100%;
+            display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: space-between;
+            padding: 0 5px;
+            
+            .best-select-price-real {
+                
+              display: flex;
+              flex-flow: row-reverse wrap;
+              align-items: center;
+              padding-left: 10px;
+              font-family: Yekan;
+              color: #2b2b2b;
+              font-weight: bold;
+              margin-left: 10px;
+             
+            }
+            .best-select-discount {
+              padding: 2px 12px;
+              background-color:  #D32F2F;
+              color: whitesmoke;
+              font-weight: bold;
+              font-size: 13px;
+              border-radius: 7px;
+              font-family: var( --font-family-number);
+            }
+          }
+          .best-select-price-discount{
+            width: 90%;
+            font-family: var(--font-family-number);
+            color: rgba(187, 183, 183, 0.699);
+            font-size: 16px;
+            text-decoration: line-through;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  

@@ -1,0 +1,131 @@
+.favorite {
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom:15px;
+   
+   
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .favorite-wrapper {
+     
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 99%;
+      height: auto;
+      border: 1px solid #e0e0e2;
+      border-radius: 15px;
+      overflow: hidden;
+      
+     
+      
+     
+      .favorite-wrapper-top {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        
+        .favorite-wrapper-title {
+          height: 100%;
+          width: 90%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          
+          margin-top: 20px;
+          img {
+            margin-left: 5px;
+            
+          }
+          p {
+            font-family: Yekan;
+            font-size: 21px;
+            text-align: center;
+          }
+        }
+       
+      }
+      .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .swiper-slide-items{
+              width: 100%;
+              height: 100%;
+             
+              display: flex;
+              flex-flow: column wrap;
+             
+              .swiper-slide-item{
+                  height: 30%;
+                  display: flex;
+                  flex-flow: row wrap;
+                  column-gap: 10px;
+                  justify-content: center;
+                  align-items: center;
+              
+                  img{
+                      width: 86px;
+                      height: 86px;
+                  }
+                  h3{
+                      font-family: var( --font-family-number);
+                      font-size: 40px;
+                      color: #30C6D7;
+                      font-size: xx-large;
+                      
+                  }
+                  p{
+                      width: 50%;
+                      font-family: Yekan;
+                      font-size: 13px;
+                      line-height: 25px;
+                      text-align: right;
+                      color: #7a7a93;
+                      overflow: hidden;
+                      display: -webkit-box;
+                      -webkit-box-orient: vertical;
+                      box-orient: vertical;
+                      -webkit-line-clamp: 2;
+                      line-clamp: 2;
+                  }
+              }
+  
+  
+          }
+          
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+    }
+  }
+  
+  
+  .border-line {
+      width: 150px; 
+      height: 1px; 
+      background-color: #e0e0e2;
+      margin: 5px auto ; 
+      margin-right: 150px;
+  }
+  
